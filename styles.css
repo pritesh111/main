@@ -1,0 +1,280 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+
+
+.second{
+  width: 100%;
+  background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url(images/bg1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+
+.navbar{
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+  padding-top: 25px;
+
+}
+
+.icon{
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo{
+  color: #ff7200;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;padding-top: 10px;
+}
+
+.menu{
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: beige;
+  font-size: 26px;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+  color: #ff7200;
+}
+
+.search{
+  width: 330px;
+  float: left;
+  margin-left: 270px;
+}
+
+.srch{
+  font-family: 'Times New Roman';
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #ff7200;
+  margin-top: 13px;
+  color: #fff;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.btn{
+  width: 100px;
+  height: 40px;
+  background: #ff7200;
+  border: 2px solid #ff7200;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 15px;
+  border-bottom-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+  outline: none;
+}
+
+.srch:focus{
+  outline: none;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container .col-7 img{
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.container .col-7:hover{
+  transform: translateY(-10px);
+
+}
+
+.container .col-7 h3{
+  text-align: center;
+  color: beige;
+  font-size: 20px;
+  padding-top: 7px;
+}
+
+.prod{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+
+.products {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+    padding-top: 100px;
+  }
+}
+
+.products .col-4 .img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.title{
+  color: beige;
+  font-size: 35px;
+  text-align: center;
+
+}
+.title:hover{
+  color: tomato;
+}
+
+
+
+.products .col-5{
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 0 20px 0px white;
+  border: solid 2px white;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+
+
+
+.products .col-5 h3{
+  color: beige;
+  text-align: center;
+}
+
+.products .col-5:hover{
+  transform: translateX(-10px);
+}
+
+.products .col-5 p{
+  color: beige;
+  text-align: center;
+}
+
+.atc {
+  color: white;
+  font-size: 16px;
+  display: inline-block;
+  background-color: #9436ff;
+  padding: 8px 10px;
+  margin: 10px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+
+.atc:hover {
+  background-color: tomato;
+}
+
+
+.products .col-6{
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 0 20px 0px white;
+  border-radius: 15px;
+  border: solid 2px white;
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+
+
+
+
+.products .col-6 h3{
+  color: beige;
+  text-align: center;
+}
+
+.products .col-6:hover{
+  transform: translateX(-10px);
+}
+
+.products .col-6 p{
+  color: beige;
+  text-align: center;
+}
+
+
+
+
+  .btn3 {
+    color: white;
+    font-size: 16px;
+    display: inline-block;
+    background-color: tomato ;
+    padding: 8px 10px;
+    margin: 10px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+  }
+
+  .btn3:hover {
+    background-color: #9436ff;
+  }
